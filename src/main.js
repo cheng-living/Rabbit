@@ -1,3 +1,4 @@
+// 引入初始化样式
 import '@/styles/common.scss'
 
 import { createApp } from 'vue'

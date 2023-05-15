@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+// 这个配置只做联想提示
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 

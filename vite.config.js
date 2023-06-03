@@ -13,11 +13,11 @@ export default defineConfig({
     vue(),
     // ...
     AutoImport({
-    resolvers: [ElementPlusResolver()],
-  }),
-  Components({
-    resolvers: [ElementPlusResolver({importStyle:"sass"})],
-  }),],
+      resolvers: [ElementPlusResolver()],
+    }),
+    Components({
+      resolvers: [ElementPlusResolver({ importStyle: "sass" })],
+    }),],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

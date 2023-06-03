@@ -10,7 +10,7 @@
 </template>
 
 <style scoped lang="scss">
-.test{
+.test {
   color: $priceColor;
 }
 </style>
